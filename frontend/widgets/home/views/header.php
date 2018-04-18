@@ -43,11 +43,11 @@ use yii\helpers\ArrayHelper;
     <!--header-->
     <!--nav-->
     <ul class="mobile-box mo-nav clearfix">
-        <li class="<?= ($action == 'mindex'||$action == 'index') ? 'active' : '' ;?>"><a href="http://maker.vsochina.com/m/index">首页</a></li>
-        <li class="<?= $action == 'mlist' ? 'active' : '' ;?>"><a href="http://maker.vsochina.com/m/list">项目</a></li>
-        <li class="<?= $action ==  'mrank' ? 'active' : '' ;?>"><a href="http://maker.vsochina.com/m/rank">排行榜</a></li>
-        <li class="<?= $action == 'mactivity' ? 'active' : '' ;?>"><a href="http://maker.vsochina.com/m/activity">活动</a></li>
-        <li class="<?= $action == 'mquanzi' ? 'active' : '' ;?>"><a href="http://maker.vsochina.com/m/circle">圈子</a></li>
+<!--        <li class="--><?//= ($action == 'mindex'||$action == 'index') ? 'active' : '' ;?><!--"><a href="http://maker.vsochina.com/m/index">首页</a></li>-->
+<!--        <li class="--><?//= $action == 'mlist' ? 'active' : '' ;?><!--"><a href="http://maker.vsochina.com/m/list">项目</a></li>-->
+<!--        <li class="--><?//= $action ==  'mrank' ? 'active' : '' ;?><!--"><a href="http://maker.vsochina.com/m/rank">排行榜</a></li>-->
+<!--        <li class="--><?//= $action == 'mactivity' ? 'active' : '' ;?><!--"><a href="http://maker.vsochina.com/m/activity">活动</a></li>-->
+<!--        <li class="--><?//= $action == 'mquanzi' ? 'active' : '' ;?><!--"><a href="http://maker.vsochina.com/m/circle">圈子</a></li>-->
     </ul>
     <!--/nav-->
 </div>

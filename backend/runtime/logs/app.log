@@ -8967,3 +8967,1327 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1524017602.273
     'REQUEST_TIME' => 1524017602
 ]
+2018-04-18 13:51:00 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/calendar-200-300.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/calendar-20...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 13:50:59 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '51836'
+    'REDIRECT_URL' => '/img/calendar-200-300.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/calendar-200-300.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/calendar-200-300.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\calendar-200-300.gif\\calendar-200-300.gif'
+    'PHP_SELF' => '/index.php/img/calendar-200-300.gif'
+    'REQUEST_TIME_FLOAT' => 1524030659.921
+    'REQUEST_TIME' => 1524030659
+]
+2018-04-18 13:51:00 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/table-191-450.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/table-191-4...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 13:51:00 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '51835'
+    'REDIRECT_URL' => '/img/table-191-450.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/table-191-450.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/table-191-450.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\table-191-450.gif\\table-191-450.gif'
+    'PHP_SELF' => '/index.php/img/table-191-450.gif'
+    'REQUEST_TIME_FLOAT' => 1524030660.1
+    'REQUEST_TIME' => 1524030660
+]
+2018-04-18 13:51:07 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/calendar-200-300.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/calendar-20...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 13:51:07 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '51834'
+    'REDIRECT_URL' => '/img/calendar-200-300.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/calendar-200-300.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/calendar-200-300.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\calendar-200-300.gif\\calendar-200-300.gif'
+    'PHP_SELF' => '/index.php/img/calendar-200-300.gif'
+    'REQUEST_TIME_FLOAT' => 1524030667.099
+    'REQUEST_TIME' => 1524030667
+]
+2018-04-18 13:51:07 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/table-191-450.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/table-191-4...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 13:51:07 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '51836'
+    'REDIRECT_URL' => '/img/table-191-450.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/table-191-450.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/table-191-450.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\table-191-450.gif\\table-191-450.gif'
+    'PHP_SELF' => '/index.php/img/table-191-450.gif'
+    'REQUEST_TIME_FLOAT' => 1524030667.337
+    'REQUEST_TIME' => 1524030667
+]
+2018-04-18 13:57:53 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/calendar-200-300.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/calendar-20...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 13:57:53 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '52422'
+    'REDIRECT_URL' => '/img/calendar-200-300.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/calendar-200-300.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/calendar-200-300.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\calendar-200-300.gif\\calendar-200-300.gif'
+    'PHP_SELF' => '/index.php/img/calendar-200-300.gif'
+    'REQUEST_TIME_FLOAT' => 1524031073.643
+    'REQUEST_TIME' => 1524031073
+]
+2018-04-18 13:57:53 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/table-191-450.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/table-191-4...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 13:57:53 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '52422'
+    'REDIRECT_URL' => '/img/table-191-450.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/table-191-450.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/table-191-450.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\table-191-450.gif\\table-191-450.gif'
+    'PHP_SELF' => '/index.php/img/table-191-450.gif'
+    'REQUEST_TIME_FLOAT' => 1524031073.837
+    'REQUEST_TIME' => 1524031073
+]
+2018-04-18 13:58:10 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/calendar-200-300.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/calendar-20...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 13:58:10 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '52440'
+    'REDIRECT_URL' => '/img/calendar-200-300.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/calendar-200-300.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/calendar-200-300.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\calendar-200-300.gif\\calendar-200-300.gif'
+    'PHP_SELF' => '/index.php/img/calendar-200-300.gif'
+    'REQUEST_TIME_FLOAT' => 1524031090.588
+    'REQUEST_TIME' => 1524031090
+]
+2018-04-18 13:58:10 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/table-191-450.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/table-191-4...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 13:58:10 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '52440'
+    'REDIRECT_URL' => '/img/table-191-450.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/table-191-450.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/table-191-450.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\table-191-450.gif\\table-191-450.gif'
+    'PHP_SELF' => '/index.php/img/table-191-450.gif'
+    'REQUEST_TIME_FLOAT' => 1524031090.778
+    'REQUEST_TIME' => 1524031090
+]
+2018-04-18 14:22:23 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/calendar-200-300.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/calendar-20...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 14:22:23 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+    '_csrf' => '308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Okw7jJW2fE40WX7v06EkzgNFwZczNaNT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5; _csrf=308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Okw7jJW2fE40WX7v06EkzgNFwZczNaNT%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '55101'
+    'REDIRECT_URL' => '/img/calendar-200-300.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/calendar-200-300.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/calendar-200-300.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\calendar-200-300.gif\\calendar-200-300.gif'
+    'PHP_SELF' => '/index.php/img/calendar-200-300.gif'
+    'REQUEST_TIME_FLOAT' => 1524032543.3
+    'REQUEST_TIME' => 1524032543
+]
+2018-04-18 14:22:23 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/table-191-450.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/table-191-4...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 14:22:23 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+    '_csrf' => '308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Okw7jJW2fE40WX7v06EkzgNFwZczNaNT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5; _csrf=308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Okw7jJW2fE40WX7v06EkzgNFwZczNaNT%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '55100'
+    'REDIRECT_URL' => '/img/table-191-450.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/table-191-450.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/table-191-450.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\table-191-450.gif\\table-191-450.gif'
+    'PHP_SELF' => '/index.php/img/table-191-450.gif'
+    'REQUEST_TIME_FLOAT' => 1524032543.483
+    'REQUEST_TIME' => 1524032543
+]
+2018-04-18 14:22:25 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/calendar-200-300.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/calendar-20...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 14:22:25 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+    '_csrf' => '308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Okw7jJW2fE40WX7v06EkzgNFwZczNaNT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5; _csrf=308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Okw7jJW2fE40WX7v06EkzgNFwZczNaNT%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '55094'
+    'REDIRECT_URL' => '/img/calendar-200-300.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/calendar-200-300.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/calendar-200-300.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\calendar-200-300.gif\\calendar-200-300.gif'
+    'PHP_SELF' => '/index.php/img/calendar-200-300.gif'
+    'REQUEST_TIME_FLOAT' => 1524032545.938
+    'REQUEST_TIME' => 1524032545
+]
+2018-04-18 14:22:26 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/table-191-450.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/table-191-4...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 14:22:26 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+    '_csrf' => '308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Okw7jJW2fE40WX7v06EkzgNFwZczNaNT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5; _csrf=308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Okw7jJW2fE40WX7v06EkzgNFwZczNaNT%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '55094'
+    'REDIRECT_URL' => '/img/table-191-450.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/table-191-450.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/table-191-450.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\table-191-450.gif\\table-191-450.gif'
+    'PHP_SELF' => '/index.php/img/table-191-450.gif'
+    'REQUEST_TIME_FLOAT' => 1524032546.133
+    'REQUEST_TIME' => 1524032546
+]
+2018-04-18 14:25:36 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/calendar-200-300.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/calendar-20...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 14:25:36 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+    '_csrf' => '308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Okw7jJW2fE40WX7v06EkzgNFwZczNaNT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5; _csrf=308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Okw7jJW2fE40WX7v06EkzgNFwZczNaNT%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '55444'
+    'REDIRECT_URL' => '/img/calendar-200-300.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/calendar-200-300.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/calendar-200-300.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\calendar-200-300.gif\\calendar-200-300.gif'
+    'PHP_SELF' => '/index.php/img/calendar-200-300.gif'
+    'REQUEST_TIME_FLOAT' => 1524032736.042
+    'REQUEST_TIME' => 1524032736
+]
+2018-04-18 14:25:36 [127.0.0.1][8][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/table-191-450.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/table-191-4...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 14:25:36 [127.0.0.1][8][-][info][application] $_COOKIE = [
+    '_identity' => 'f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"8\",\"\",86400]\";}'
+    'PHPSESSID' => 'bdu64s0dvlfkm32hhbpk66rtm5'
+    '_csrf' => '308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Okw7jJW2fE40WX7v06EkzgNFwZczNaNT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '8'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => '_identity=f00fe00602ef480a540c70e8e32d10deec4264336c52828ba7201aa43869fcc2a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%228%22%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=bdu64s0dvlfkm32hhbpk66rtm5; _csrf=308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Okw7jJW2fE40WX7v06EkzgNFwZczNaNT%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '55444'
+    'REDIRECT_URL' => '/img/table-191-450.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/table-191-450.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/table-191-450.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\table-191-450.gif\\table-191-450.gif'
+    'PHP_SELF' => '/index.php/img/table-191-450.gif'
+    'REQUEST_TIME_FLOAT' => 1524032736.218
+    'REQUEST_TIME' => 1524032736
+]
+2018-04-18 14:26:13 [127.0.0.1][9][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/calendar-200-300.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/calendar-20...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 14:26:13 [127.0.0.1][9][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gukq1bbmkpc7oviblotvb7av32'
+    '_csrf' => '308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Okw7jJW2fE40WX7v06EkzgNFwZczNaNT\";}'
+    '_identity' => 'afa5695b9b7edc98a498f076d64a3f47937740a488cc29a5efc2b3d2228770c3a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"9\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => '9'
+    'msg' => 0
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => 'PHPSESSID=gukq1bbmkpc7oviblotvb7av32; _csrf=308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Okw7jJW2fE40WX7v06EkzgNFwZczNaNT%22%3B%7D; _identity=afa5695b9b7edc98a498f076d64a3f47937740a488cc29a5efc2b3d2228770c3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%229%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '55553'
+    'REDIRECT_URL' => '/img/calendar-200-300.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/calendar-200-300.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/calendar-200-300.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\calendar-200-300.gif\\calendar-200-300.gif'
+    'PHP_SELF' => '/index.php/img/calendar-200-300.gif'
+    'REQUEST_TIME_FLOAT' => 1524032773.227
+    'REQUEST_TIME' => 1524032773
+]
+2018-04-18 14:26:13 [127.0.0.1][9][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/table-191-450.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/table-191-4...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 14:26:13 [127.0.0.1][9][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gukq1bbmkpc7oviblotvb7av32'
+    '_csrf' => '308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Okw7jJW2fE40WX7v06EkzgNFwZczNaNT\";}'
+    '_identity' => 'afa5695b9b7edc98a498f076d64a3f47937740a488cc29a5efc2b3d2228770c3a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"9\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => '9'
+    'msg' => 0
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => 'PHPSESSID=gukq1bbmkpc7oviblotvb7av32; _csrf=308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Okw7jJW2fE40WX7v06EkzgNFwZczNaNT%22%3B%7D; _identity=afa5695b9b7edc98a498f076d64a3f47937740a488cc29a5efc2b3d2228770c3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%229%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '55553'
+    'REDIRECT_URL' => '/img/table-191-450.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/table-191-450.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/table-191-450.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\table-191-450.gif\\table-191-450.gif'
+    'PHP_SELF' => '/index.php/img/table-191-450.gif'
+    'REQUEST_TIME_FLOAT' => 1524032773.411
+    'REQUEST_TIME' => 1524032773
+]
+2018-04-18 14:26:15 [127.0.0.1][9][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/calendar-200-300.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/calendar-20...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 14:26:15 [127.0.0.1][9][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gukq1bbmkpc7oviblotvb7av32'
+    '_csrf' => '308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Okw7jJW2fE40WX7v06EkzgNFwZczNaNT\";}'
+    '_identity' => 'afa5695b9b7edc98a498f076d64a3f47937740a488cc29a5efc2b3d2228770c3a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"9\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => '9'
+    'msg' => 0
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => 'PHPSESSID=gukq1bbmkpc7oviblotvb7av32; _csrf=308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Okw7jJW2fE40WX7v06EkzgNFwZczNaNT%22%3B%7D; _identity=afa5695b9b7edc98a498f076d64a3f47937740a488cc29a5efc2b3d2228770c3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%229%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '55553'
+    'REDIRECT_URL' => '/img/calendar-200-300.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/calendar-200-300.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/calendar-200-300.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\calendar-200-300.gif\\calendar-200-300.gif'
+    'PHP_SELF' => '/index.php/img/calendar-200-300.gif'
+    'REQUEST_TIME_FLOAT' => 1524032775.635
+    'REQUEST_TIME' => 1524032775
+]
+2018-04-18 14:26:15 [127.0.0.1][9][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/table-191-450.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/table-191-4...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 14:26:15 [127.0.0.1][9][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gukq1bbmkpc7oviblotvb7av32'
+    '_csrf' => '308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Okw7jJW2fE40WX7v06EkzgNFwZczNaNT\";}'
+    '_identity' => 'afa5695b9b7edc98a498f076d64a3f47937740a488cc29a5efc2b3d2228770c3a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"9\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => '9'
+    'msg' => 0
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => 'PHPSESSID=gukq1bbmkpc7oviblotvb7av32; _csrf=308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Okw7jJW2fE40WX7v06EkzgNFwZczNaNT%22%3B%7D; _identity=afa5695b9b7edc98a498f076d64a3f47937740a488cc29a5efc2b3d2228770c3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%229%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '55553'
+    'REDIRECT_URL' => '/img/table-191-450.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/table-191-450.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/table-191-450.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\table-191-450.gif\\table-191-450.gif'
+    'PHP_SELF' => '/index.php/img/table-191-450.gif'
+    'REQUEST_TIME_FLOAT' => 1524032775.81
+    'REQUEST_TIME' => 1524032775
+]
+2018-04-18 14:26:19 [127.0.0.1][9][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/calendar-200-300.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/calendar-20...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 14:26:19 [127.0.0.1][9][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gukq1bbmkpc7oviblotvb7av32'
+    '_csrf' => '308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Okw7jJW2fE40WX7v06EkzgNFwZczNaNT\";}'
+    '_identity' => 'afa5695b9b7edc98a498f076d64a3f47937740a488cc29a5efc2b3d2228770c3a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"9\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => '9'
+    'msg' => 0
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => 'PHPSESSID=gukq1bbmkpc7oviblotvb7av32; _csrf=308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Okw7jJW2fE40WX7v06EkzgNFwZczNaNT%22%3B%7D; _identity=afa5695b9b7edc98a498f076d64a3f47937740a488cc29a5efc2b3d2228770c3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%229%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '55553'
+    'REDIRECT_URL' => '/img/calendar-200-300.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/calendar-200-300.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/calendar-200-300.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\calendar-200-300.gif\\calendar-200-300.gif'
+    'PHP_SELF' => '/index.php/img/calendar-200-300.gif'
+    'REQUEST_TIME_FLOAT' => 1524032779.059
+    'REQUEST_TIME' => 1524032779
+]
+2018-04-18 14:26:19 [127.0.0.1][9][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/table-191-450.gif".' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('img/table-191-4...', Array)
+#1 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp64\www\yijianjituan\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\yijianjituan\backend\web\index.php(29): yii\base\Application->run()
+#2 {main}
+2018-04-18 14:26:19 [127.0.0.1][9][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gukq1bbmkpc7oviblotvb7av32'
+    '_csrf' => '308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Okw7jJW2fE40WX7v06EkzgNFwZczNaNT\";}'
+    '_identity' => 'afa5695b9b7edc98a498f076d64a3f47937740a488cc29a5efc2b3d2228770c3a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[\"9\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => '9'
+    'msg' => 0
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.onetest.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.onetest.com/css/bui.css'
+    'HTTP_COOKIE' => 'PHPSESSID=gukq1bbmkpc7oviblotvb7av32; _csrf=308f13b9d775de5d5d95293df3d9a282d3c1b6505b67bc389e61d34da79114f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Okw7jJW2fE40WX7v06EkzgNFwZczNaNT%22%3B%7D; _identity=afa5695b9b7edc98a498f076d64a3f47937740a488cc29a5efc2b3d2228770c3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B%229%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Program Files\\TortoiseGit\\bin;D:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at www.onetest.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'www.onetest.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www/yijianjituan/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/yijianjituan/backend/web/index.php'
+    'REMOTE_PORT' => '55553'
+    'REDIRECT_URL' => '/img/table-191-450.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/table-191-450.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/img/table-191-450.gif'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\img\\table-191-450.gif\\table-191-450.gif'
+    'PHP_SELF' => '/index.php/img/table-191-450.gif'
+    'REQUEST_TIME_FLOAT' => 1524032779.278
+    'REQUEST_TIME' => 1524032779
+]
