@@ -71,28 +71,28 @@ use yii\helpers\Html;
 <body>
 <div class="demo-content">
     <form id="Goods_Form" action="" class="form-horizontal" onsubmit="return false;" >
-        <h2>添加项目</h2>
+        <h2>编辑学员</h2>
         <input name="id" type="hidden" value="<?php echo $project['id'] ?>">
         <div class="control-group">
-            <label class="control-label"><s>*</s>项目名称：</label>
+            <label class="control-label"><s>*</s>学员名称：</label>
             <div class="controls">
                 <input name="title" type="text" class="input-medium" data-rules="{required : true}" value="<?php echo $project['title'] ?>">
             </div>
         </div>
 
         <div class="control-group">
-            <label class="control-label"><s>*</s>项目标签：</label>
+            <label class="control-label"><s>*</s>所选课程：</label>
             <div id="tags-content" style="text-indent: 10px; margin: auto auto 10px 0">
                 <input name="tags" type="hidden" id="tags" value="<?php echo $project['tags'] ?>"  data-rules="{required : true}">
             </div>
         </div>
 
-        <div class="control-group">
-            <label class="control-label"><s>*</s>项目缩略图：</label>
-            <div id="thumbpic" class="controls">
-                <span class="button button-primary">上传图片</span>
-            </div>
-        </div>
+<!--        <div class="control-group">-->
+<!--            <label class="control-label"><s>*</s>项目缩略图：</label>-->
+<!--            <div id="thumbpic" class="controls">-->
+<!--                <span class="button button-primary">上传图片</span>-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="row" >
             <div class="span16 layout-outer-content">
                 <div id="thumbpic-content" class="layout-content" aria-disabled="false" aria-pressed="false" >
@@ -111,7 +111,7 @@ use yii\helpers\Html;
         </div>
 
         <div class="control-group" id="description_content">
-            <label class="control-label">项目描述：</label>
+            <label class="control-label">学员描述：</label>
             <div class="controls  control-row-auto">
                 <!--                <textarea name="case[description]" id="" class="control-row3 input-large" data-rules="{required : true}"></textarea>-->
                 <script type="text/plain" id="editor_content" name="detail"></script>

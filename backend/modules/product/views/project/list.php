@@ -35,13 +35,13 @@ use common\models\Cases;
 
                 <div class="row">
                     <div class="control-group span12">
-                        <label class="control-label">项目名称：</label>
+                        <label class="control-label">学员姓名：</label>
                         <div class="controls" data-type="city">
                             <input type="text" class="control-text" name="name" id="name">
                         </div>
                     </div>
                     <div class="control-group span10">
-                        <label class="control-label">项目状态：</label>
+                        <label class="control-label">学员状态：</label>
                         <div class="controls" >
                             <select name="status" id="status">
                                 <option value="">请选择</option>
@@ -54,7 +54,7 @@ use common\models\Cases;
                 </div>
                 <div class="row">
                     <div class="control-group span14">
-                        <label class="control-label">发布时间：</label>
+                        <label class="control-label">报名时间：</label>
                         <div class="controls">
                             <input type="text" class="calendar calendar-time" name="uptimeStart"><span> - </span><input name="uptimeEnd" type="text" class="calendar calendar-time">
                         </div>
@@ -133,17 +133,17 @@ use common\models\Cases;
                 selectedEvent: 'click',
                 columns: [
                     {title: '序号', dataIndex: 'id', width: 80, elCls : 'center'},
-                    {title: '项目名称', dataIndex: 'title', width: 90, elCls : 'center'},
-                    {
-                        title: '图片',
-                        width: 140,
-                        elCls : 'center',
-                        renderer: function (v, obj) {
-                            return "<img class='user_avatar' src='"+ obj.pic +"'>";
-                        }
-                    },
-                    {title: '项目标签', dataIndex: 'tags', width: 80, elCls : 'center'},
-                    {title: '项目状态', dataIndex: 'status_name', width: 80, elCls : 'center'},
+                    {title: '学员姓名', dataIndex: 'title', width: 90, elCls : 'center'},
+//                    {
+//                        title: '图片',
+//                        width: 140,
+//                        elCls : 'center',
+//                        renderer: function (v, obj) {
+//                            return "<img class='user_avatar' src='"+ obj.pic +"'>";
+//                        }
+//                    },
+                    {title: '所选课程', dataIndex: 'tags', width: 80, elCls : 'center'},
+                    {title: '学员状态', dataIndex: 'status_name', width: 80, elCls : 'center'},
                     {title: '创建时间', dataIndex: 'create_time', width: 150, elCls : 'center'},
                     {title: '更新时间', dataIndex: 'update_time', width: 150, elCls : 'center'},
                     {
@@ -152,12 +152,12 @@ use common\models\Cases;
                         renderer: function (v, obj) {
                             if(obj.status == 1){
                                 return "<a class='button button-info' onclick='showInfo(" + obj.id + ")'>查看</a>" +
-                                    "<a class='button button-success page-action' title='编辑产品项目' href='/product/project/update/?id="+ obj.id +"' data-href='/product/project/update/?id="+ obj.id +"' >编辑</a>" +
-                                    " <a class='button button-danger' onclick='offShelf(" + obj.id + ")'>禁用</a>";
+                                    "<a class='button button-success page-action' title='编辑学员' data-href='/product/project/update/?id="+ obj.id +"' >编辑</a>";
+//                                +" <a class='button button-danger' onclick='offShelf(" + obj.id + ")'>禁用</a>";
                             }else if(obj.status == 2){
                                 return "<a class='button button-info' onclick='showInfo(" + obj.id + ")'>查看</a>" +
-                                    "<a class='button button-success page-action' title='编辑产品项目信息' data-href='/product/project/update/?id="+ obj.id +"' >编辑</a>" +
-                                    " <a class='button button-primary' onclick='upShelf(" + obj.id + ")'>启用</a>";
+                                    "<a class='button button-success page-action' title='编辑学员信息' data-href='/product/project/update/?id="+ obj.id +"' >编辑</a>";
+//                                +" <a class='button button-primary' onclick='upShelf(" + obj.id + ")'>启用</a>";
                             }
                         }
                     }
@@ -230,7 +230,7 @@ use common\models\Cases;
             },
         ];
         dialog = new Overlay.Dialog({
-            title: '产品项目信息',
+            title: '学员信息',
             width: width,
             height: height,
             closeAction: 'destroy',

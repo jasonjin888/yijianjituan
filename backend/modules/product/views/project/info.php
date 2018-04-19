@@ -24,37 +24,37 @@
         <div class="row">
 
             <div class="control-group ">
-                <label class="control-label">项目ID：</label>
+                <label class="control-label">学员ID：</label>
                 <div class="controls">
                     <span  class="control-text" ><?php echo $project['id'] ?></span>
                 </div>
             </div>
             <div class="control-group ">
-                <label class="control-label">项目标题：</label>
+                <label class="control-label">学员姓名：</label>
                 <div class="controls">
                     <span  class="control-text" ><?php echo $project['title'] ?></span>
                 </div>
             </div>
-            <div class="control-group  avatar_content" >
-                <label class="control-label">项目图片：</label>
-                <div class="controls">
-                    <img class="avatar_img" src="<?php echo $project['pic'] ?>">
-                </div>
-            </div>
+<!--            <div class="control-group  avatar_content" >-->
+<!--                <label class="control-label">项目图片：</label>-->
+<!--                <div class="controls">-->
+<!--                    <img class="avatar_img" src="--><?php //echo $project['pic'] ?><!--">-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="control-group ">
-                <label class="control-label">详情：</label>
+                <label class="control-label">学员详情：</label>
                 <div class="controls">
                     <span  class="control-text" ><?php echo $project['detail'] ?></span>
                 </div>
             </div>
             <div class="control-group ">
-                <label class="control-label">标签：</label>
+                <label class="control-label">所选课程：</label>
                 <div class="controls">
                     <span  class="control-text" ><?php echo $project['tags'] ?></span>
                 </div>
             </div>
             <div class="control-group ">
-                <label class="control-label">创建时间：</label>
+                <label class="control-label">报名时间：</label>
                 <div class="controls">
                     <span  class="control-text" ><?php echo $project['create_at']?></span>
                 </div>
