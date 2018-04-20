@@ -6,7 +6,7 @@ use common\models\Cases;
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>产品标签列表</title>
+    <title>课程列表</title>
     <link href="/css/dpl.css" rel="stylesheet">
     <link href="/css/bui.css" rel="stylesheet">
     <link href="/css/page-min.css" rel="stylesheet">
@@ -35,22 +35,22 @@ use common\models\Cases;
 
                 <div class="row">
                     <div class="control-group span12">
-                        <label class="control-label">标签名称：</label>
+                        <label class="control-label">课程名称：</label>
                         <div class="controls" data-type="city">
                             <input type="text" class="control-text" name="name" id="name">
                         </div>
                     </div>
-                    <div class="control-group span10">
-                        <label class="control-label">标签状态：</label>
-                        <div class="controls" >
-                            <select name="status" id="status">
-                                <option value="">请选择</option>
-                                <?php foreach (Cases::getStatuses() as $key => $name): ?>
-                                    <option value="<?= $key ?>"><?= $name ?></option>
-                                <?php endforeach ?>
-                            </select>
-                        </div>
-                    </div>
+<!--                    <div class="control-group span10">-->
+<!--                        <label class="control-label">标签状态：</label>-->
+<!--                        <div class="controls" >-->
+<!--                            <select name="status" id="status">-->
+<!--                                <option value="">请选择</option>-->
+<!--                                --><?php //foreach (Cases::getStatuses() as $key => $name): ?>
+<!--                                    <option value="--><?//= $key ?><!--">--><?//= $name ?><!--</option>-->
+<!--                                --><?php //endforeach ?>
+<!--                            </select>-->
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
                 <div class="row">
                     <div class="control-group span14">
@@ -133,8 +133,8 @@ use common\models\Cases;
                 selectedEvent: 'click',
                 columns: [
                     {title: '序号', dataIndex: 'id', width: 80, elCls : 'center'},
-                    {title: '标签名称', dataIndex: 'name', width: 120, elCls : 'center'},
-                    {title: '标签类型', dataIndex: 'type_name', width: 120, elCls : 'center'},
+                    {title: '课程名称', dataIndex: 'name', width: 120, elCls : 'center'},
+//                    {title: '标签类型', dataIndex: 'type_name', width: 120, elCls : 'center'},
                     {title: '创建时间', dataIndex: 'create_time', width: 150, elCls : 'center'},
                     {
                         title: '操作',

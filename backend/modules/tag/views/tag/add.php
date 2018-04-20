@@ -19,25 +19,25 @@
 <body>
 <div class="demo-content">
     <form id="Goods_Form" action="" class="form-horizontal" onsubmit="return false;" >
-        <h2>添加标签</h2>
+        <h2>添加课程</h2>
         <div class="control-group">
-            <label class="control-label"><s>*</s>标签名称：</label>
+            <label class="control-label"><s>*</s>课程名称：</label>
             <div class="controls">
                 <input name="name" type="text" class="input-medium" data-rules="{required : true}">
             </div>
         </div>
 
-        <div class="control-group">
-            <label class="control-label">标签类型：</label>
-            <div class="controls" >
-                <select name="type" id="type" data-rules="{required : true}">
-                    <option value="">请选择</option>
-                    <?php foreach ($types as $key => $name): ?>
-                        <option value="<?= $key ?>"><?= $name ?></option>
-                    <?php endforeach ?>
-                </select>
-            </div>
-        </div>
+<!--        <div class="control-group">-->
+<!--            <label class="control-label">课程类型：</label>-->
+<!--            <div class="controls" >-->
+<!--                <select name="type" id="type" data-rules="{required : true}">-->
+<!--                    <option value="">请选择</option>-->
+<!--                    --><?php //foreach ($types as $key => $name): ?>
+<!--                        <option value="--><?//= $key ?><!--">--><?//= $name ?><!--</option>-->
+<!--                    --><?php //endforeach ?>
+<!--                </select>-->
+<!--            </div>-->
+<!--        </div>-->
 
         <div class="row actions-bar">
             <div class="form-actions span13 offset3">

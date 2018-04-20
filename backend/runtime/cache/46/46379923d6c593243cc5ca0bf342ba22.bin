@@ -1,1 +1,1 @@
-a:2:{i:0;s:16:"["\u4e0d\u9650"]";i:1;O:24:"yii\caching\DbDependency":5:{s:2:"db";s:2:"db";s:3:"sql";s:36:"SELECT MAX(update_at) FROM {{%tags}}";s:6:"params";a:0:{}s:4:"data";a:1:{s:14:"MAX(update_at)";s:10:"1480061401";}s:8:"reusable";b:0;}}
+a:2:{i:0;s:33:"["\u8bfe\u7a0b1","\u8bfe\u7a0b2"]";i:1;O:24:"yii\caching\DbDependency":5:{s:2:"db";s:2:"db";s:3:"sql";s:36:"SELECT MAX(update_at) FROM {{%tags}}";s:6:"params";a:0:{}s:4:"data";a:1:{s:14:"MAX(update_at)";s:10:"1524192221";}s:8:"reusable";b:0;}}

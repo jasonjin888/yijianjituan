@@ -6,7 +6,7 @@ use common\models\Cases;
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>产品项目列表</title>
+    <title>学员列表</title>
     <link href="/css/dpl.css" rel="stylesheet">
     <link href="/css/bui.css" rel="stylesheet">
     <link href="/css/page-min.css" rel="stylesheet">
@@ -143,7 +143,8 @@ use common\models\Cases;
 //                        }
 //                    },
                     {title: '所选课程', dataIndex: 'tags', width: 80, elCls : 'center'},
-                    {title: '学员状态', dataIndex: 'status_name', width: 80, elCls : 'center'},
+                    {title: '课程收费', dataIndex: 'price', width: 80, elCls : 'center'},
+//                    {title: '学员状态', dataIndex: 'status_name', width: 80, elCls : 'center'},
                     {title: '创建时间', dataIndex: 'create_time', width: 150, elCls : 'center'},
                     {title: '更新时间', dataIndex: 'update_time', width: 150, elCls : 'center'},
                     {
@@ -152,11 +153,12 @@ use common\models\Cases;
                         renderer: function (v, obj) {
                             if(obj.status == 1){
                                 return "<a class='button button-info' onclick='showInfo(" + obj.id + ")'>查看</a>" +
-                                    "<a class='button button-success page-action' title='编辑学员' data-href='/product/project/update/?id="+ obj.id +"' >编辑</a>";
+                                    " <a class='button button-success page-action' title='编辑学员' data-href='/product/project/update/?id="+ obj.id +"' >编辑</a>" +
+                                " <a class='button button-danger' onclick='checkUser(" + obj.id + ")'>确认收费</a>";
 //                                +" <a class='button button-danger' onclick='offShelf(" + obj.id + ")'>禁用</a>";
                             }else if(obj.status == 2){
                                 return "<a class='button button-info' onclick='showInfo(" + obj.id + ")'>查看</a>" +
-                                    "<a class='button button-success page-action' title='编辑学员信息' data-href='/product/project/update/?id="+ obj.id +"' >编辑</a>";
+                                    " <a class='button button-success page-action' title='编辑学员' data-href='/product/project/update/?id="+ obj.id +"' >编辑</a>";
 //                                +" <a class='button button-primary' onclick='upShelf(" + obj.id + ")'>启用</a>";
                             }
                         }
@@ -277,6 +279,23 @@ use common\models\Cases;
             }
         });
     }
+
+    /**
+     * 确认收到款项
+     */
+    function checkUser(id) {
+        alert(id);
+//        ajax_change_status(id, 2, function(json){
+//            if(json.code > 0){
+//                BUI.Message.Alert(json.msg, function(){
+//                    window.location.href = '/product/project/list';
+//                }, 'success');
+//            }else{
+//                BUI.Message.Alert(json.msg, 'error');
+//            }
+//        });
+    }
+
 
     /**
      *删除

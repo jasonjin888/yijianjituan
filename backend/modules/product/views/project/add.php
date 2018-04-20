@@ -43,19 +43,25 @@
 <!--                <span class="button button-primary">上传图片</span>-->
 <!--            </div>-->
 <!--        </div>-->
-        <div class="row" >
-            <div class="span16 layout-outer-content">
-                <div id="thumbpic-content" class="layout-content" aria-disabled="false" aria-pressed="false" >
-
-                </div>
-            </div>
-        </div>
+<!--        <div class="row" >-->
+<!--            <div class="span16 layout-outer-content">-->
+<!--                <div id="thumbpic-content" class="layout-content" aria-disabled="false" aria-pressed="false" >-->
+<!---->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
         <div class="control-group" id="description_content">
-            <label class="control-label">项目详情：</label>
+            <label class="control-label">学员描述：</label>
             <div class="controls  control-row-auto">
                 <!--                <textarea name="detail" id="" class="control-row3 input-large" data-rules="{required : true}"></textarea>-->
                 <script type="text/plain" id="editor_content" name="detail"></script>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label"><s>*</s>课程费用：</label>
+            <div class="controls">
+                <input name="price" type="text" class="input-medium" data-rules="{required : true}">元
             </div>
         </div>
         <div class="row actions-bar">

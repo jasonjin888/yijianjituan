@@ -88,6 +88,7 @@ class ProjectController extends BaseController
                 'id',
                 'title',
                 'pic',
+                'price',
                 'tags',
                 'status',
                 'pic' => function($m){

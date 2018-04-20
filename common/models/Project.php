@@ -44,7 +44,7 @@ class Project extends BaseModel
             [['status', 'create_at', 'update_at'], 'integer'],
             [['title'], 'string', 'max' => 60],
             //必填字段
-            [['title', 'detail', 'tags'], 'required'],
+            [['title', 'detail', 'price', 'tags'], 'required'],
             //title
             ['title', 'filter', 'filter' => [Filter::className(), 'filters_title']],
             //pic
@@ -70,8 +70,9 @@ class Project extends BaseModel
             'id' => '学员ID',
             'title' => '学员姓名',
 //            'pic' => '项目图片',
+            'price' => '课程费用',
             'detail' => '学员描述',
-            'tags' => '标签',
+            'tags' => '所选课程',
             'status' => '状态（1-正常；2-删除）',
             'create_at' => '创建时间',
             'update_at' => '更新时间',

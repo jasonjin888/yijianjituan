@@ -93,28 +93,34 @@ use yii\helpers\Html;
 <!--                <span class="button button-primary">上传图片</span>-->
 <!--            </div>-->
 <!--        </div>-->
-        <div class="row" >
-            <div class="span16 layout-outer-content">
-                <div id="thumbpic-content" class="layout-content" aria-disabled="false" aria-pressed="false" >
-                    <?php foreach(json_decode($project['pic'], true) as $v): ?>
-                        <div id="" class=" pull-left img-content-li">
-                            <a href="javaScript:;"><span class="label label-important img-delete" file-path="<?php echo $v ?>">删除</span></a>
-                            <div aria-disabled="false"  class="" aria-pressed="false">
-                                <img  src="<?php echo $v ?>" />
-                                <input type="hidden" name="pic[]" value="<?php echo $v ?>">
-                                <p></p>
-                            </div>
-                        </div>
-                    <?php endforeach ?>
-                </div>
-            </div>
-        </div>
+<!--        <div class="row" >-->
+<!--            <div class="span16 layout-outer-content">-->
+<!--                <div id="thumbpic-content" class="layout-content" aria-disabled="false" aria-pressed="false" >-->
+<!--                    --><?php //foreach(json_decode($project['pic'], true) as $v): ?>
+<!--                        <div id="" class=" pull-left img-content-li">-->
+<!--                            <a href="javaScript:;"><span class="label label-important img-delete" file-path="--><?php //echo $v ?><!--">删除</span></a>-->
+<!--                            <div aria-disabled="false"  class="" aria-pressed="false">-->
+<!--                                <img  src="--><?php //echo $v ?><!--" />-->
+<!--                                <input type="hidden" name="pic[]" value="--><?php //echo $v ?><!--">-->
+<!--                                <p></p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    --><?php //endforeach ?>
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
         <div class="control-group" id="description_content">
             <label class="control-label">学员描述：</label>
             <div class="controls  control-row-auto">
                 <!--                <textarea name="case[description]" id="" class="control-row3 input-large" data-rules="{required : true}"></textarea>-->
                 <script type="text/plain" id="editor_content" name="detail"></script>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label"><s>*</s>课程收费：</label>
+            <div class="controls">
+                <input name="price" type="text" class="input-medium" data-rules="{required : true}" value="<?php echo $project['price'] ?>">元
             </div>
         </div>
         <div class="row actions-bar">

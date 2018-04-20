@@ -70,47 +70,47 @@ use yii\helpers\Html;
 <body>
 <div class="demo-content">
     <form id="Goods_Form" action="" class="form-horizontal" onsubmit="return false;" >
-        <h2>添加标签</h2>
+        <h2>添加课程</h2>
         <input name="id" type="hidden" value="<?php echo $tag['id'] ?>">
         <div class="control-group">
-            <label class="control-label"><s>*</s>标签名称：</label>
+            <label class="control-label"><s>*</s>课程名称：</label>
             <div class="controls">
                 <input name="title" type="text" class="input-medium" data-rules="{required : true}" value="<?php echo $tag['title'] ?>">
             </div>
         </div>
 
-        <div class="control-group">
-            <label class="control-label"><s>*</s>标签标签：</label>
-            <div class="controls">
-                <input name="tags" type="text" class="input-medium" data-rules="{number:true, required : true}" value="<?php echo $tag['tags'] ?>">
-            </div>
-        </div>
+<!--        <div class="control-group">-->
+<!--            <label class="control-label"><s>*</s>标签标签：</label>-->
+<!--            <div class="controls">-->
+<!--                <input name="tags" type="text" class="input-medium" data-rules="{number:true, required : true}" value="--><?php //echo $tag['tags'] ?><!--">-->
+<!--            </div>-->
+<!--        </div>-->
 
-        <div class="control-group">
-            <label class="control-label"><s>*</s>标签缩略图：</label>
-            <div id="thumbpic" class="controls">
-                <span class="button button-primary">上传图片</span>
-            </div>
-        </div>
-        <div class="row" >
-            <div class="span16 layout-outer-content">
-                <div id="thumbpic-content" class="layout-content" aria-disabled="false" aria-pressed="false" >
-                    <?php if(!empty($tag['pic'])): ?>
-                        <div id="" class=" pull-left img-content-li">
-                            <a href="javaScript:;"><span class="label label-important img-delete" file-path="<?php echo $tag['pic'] ?>">删除</span></a>
-                            <div aria-disabled="false"  class="" aria-pressed="false">
-                                <img  src="<?php echo $tag['pic'] ?>" />
-                                <input type="hidden" name="pic" value="<?php echo $tag['pic'] ?>">
-                                <p></p>
-                            </div>
-                        </div>
-                    <?php endif ?>
-                </div>
-            </div>
-        </div>
+<!--        <div class="control-group">-->
+<!--            <label class="control-label"><s>*</s>标签缩略图：</label>-->
+<!--            <div id="thumbpic" class="controls">-->
+<!--                <span class="button button-primary">上传图片</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row" >-->
+<!--            <div class="span16 layout-outer-content">-->
+<!--                <div id="thumbpic-content" class="layout-content" aria-disabled="false" aria-pressed="false" >-->
+<!--                    --><?php //if(!empty($tag['pic'])): ?>
+<!--                        <div id="" class=" pull-left img-content-li">-->
+<!--                            <a href="javaScript:;"><span class="label label-important img-delete" file-path="--><?php //echo $tag['pic'] ?><!--">删除</span></a>-->
+<!--                            <div aria-disabled="false"  class="" aria-pressed="false">-->
+<!--                                <img  src="--><?php //echo $tag['pic'] ?><!--" />-->
+<!--                                <input type="hidden" name="pic" value="--><?php //echo $tag['pic'] ?><!--">-->
+<!--                                <p></p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    --><?php //endif ?>
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
         <div class="control-group" id="description_content">
-            <label class="control-label">标签描述：</label>
+            <label class="control-label">课程描述：</label>
             <div class="controls  control-row-auto">
                 <!--                <textarea name="case[description]" id="" class="control-row3 input-large" data-rules="{required : true}"></textarea>-->
                 <script type="text/plain" id="editor_content" name="detail"></script>
