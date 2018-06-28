@@ -8,8 +8,8 @@ use yii\helpers\Html;
     <meta charset="UTF-8">
     <?= Html::cssFile('@web/css/bootstrap.min.css') ?>
     <?= Html::cssFile('@web/css/site.css') ?>
-    <?= Html::jsFile('@web/Js/jquery.js') ?>
-    <?= Html::jsFile('@web/Js/bootstrap.js') ?>
+    <?= Html::jsFile('@web/js/jquery.js') ?>
+    <?= Html::jsFile('@web/js/bootstrap.js') ?>
 </head>
 <body>
 

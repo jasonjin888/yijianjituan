@@ -13,10 +13,10 @@ use yii\widgets\ActiveForm;
     <?= Html::cssFile('@web/css/site.css') ?>
     <?= Html::cssFile('@web/css/jquery.Jcrop.css') ?>
 
-    <?= Html::jsFile('@web/Js/jquery.js') ?>
-    <?= Html::jsFile('@web/Js/ajaxupload.js') ?>
-    <?= Html::jsFile('@web/Js/jquery.Jcrop.min.js') ?>
-    <?= Html::jsFile('@web/Js/bootstrap.js') ?>
+    <?= Html::jsFile('@web/js/jquery.js') ?>
+    <?= Html::jsFile('@web/js/ajaxupload.js') ?>
+    <?= Html::jsFile('@web/js/jquery.Jcrop.min.js') ?>
+    <?= Html::jsFile('@web/js/bootstrap.js') ?>
     <title>用户管理</title>
     <script>
         $(function () {

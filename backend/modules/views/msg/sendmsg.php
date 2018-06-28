@@ -11,8 +11,8 @@ use yii\bootstrap\Alert;
     <title>发送消息</title>
     <?= Html::cssFile('@web/css/bootstrap.min.css') ?>
     <?= Html::cssFile('@web/css/site.css') ?>
-    <?= Html::jsFile('@web/Js/jquery.js') ?>
-    <?= Html::jsFile('@web/Js/bootstrap.js') ?>
+    <?= Html::jsFile('@web/js/jquery.js') ?>
+    <?= Html::jsFile('@web/js/bootstrap.js') ?>
     <script>
         $(function () {
             ckinfo();
